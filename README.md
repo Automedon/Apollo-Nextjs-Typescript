@@ -1,30 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+                                     THE PIZZA TASK  
+1. Task description  
+    - Let’s imagine you want to start a new pizza delivery business. Please create a small web application for online pizza ordering. The idea is to make a non-existing service where assumed clients can choose a pizza, put it into a cart and make an order. 
+2. Requirements  
+    - The menu page should contain at least 8 pizzas 
+    - Login is not required but could be available for checking the history of orders  
+    - Your clients should be able to choose pizzas directly from the menu 
+    - You can decide what else you want in the menu  
+    - Adding a description for each pizza would be a nice decision 
+    - Don’t proceed to the payment page. The last action from a client will be filling in the order form (address, 
+name, surname, etc.) to get a confirmation that the order has been received 
+    - A client should be able to put several pizzas into cart, and the quantity must be defined both while 
+outside the cart and in the cart 
+    - Total price of each order must be calculated and shown in euros and in dollars  
+    - Don’t forget to add delivery costs to the final bill 
+3. Technologies 
+    - You are free to use any frameworks or libraries, but keep in mind that we primarily evaluate interface, 
+functionality and workflow 
+    - Less is more 
+4. Delivery format  
+    - Please provide a link to your repository and a direct link to the deployed version of your application (e.g. 
+on Heroku) 
+    - The solution must be testable by a non-technical person  
+5. Resources  
+    - Deployment of the application: Heroku  
+    - Free mysql db host (https://remotemysql.com/) 
+    - Use Git as code source management tool (following Git Flow will be assessed) 
+    - The estimated duration for the task completion is 7 days  
