@@ -8,8 +8,32 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "apollo-boost": "latest",
+    "formik": "latest",
+    "graphql": "^15.1.0",
+    "graphql-tag": "^2.10.3",
     "next": "9.4.4",
+    "next-with-apollo": "latest",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
-  }
+    "react-apollo": "latest",
+    "react-dom": "16.13.1",
+    "react-responsive-carousel": "^3.2.8",
+    "sass": "^1.26.8",
+    "styled-components": "latest",
+    "yup": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.36",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-optipng": "^7.1.0",
+    "imagemin-svgo": "^7.1.0",
+    "typescript": "^3.9.5"
+  },
+  "author": "Automedon",
+  "license": "MIT"
 }
